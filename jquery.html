@@ -1,0 +1,76 @@
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jquery</title>
+
+
+<script type="text/javascript" src="jquery.min.js"></script>
+
+
+<style type="text/css">
+
+#cir
+{
+
+width: 5%;
+height: 1%;
+
+
+background-color: black;
+
+
+}
+
+#close
+{
+
+float:right;
+margin-top: 2.5%;
+margin-right: 5%;
+
+}
+
+
+
+</style>
+
+
+</head>
+
+<body>
+
+
+<div id="cir"></div>
+
+
+
+
+<script type="text/javascript">
+
+$("#cir").click
+(
+function()
+{$(this).animate
+(
+{
+width: "60%",
+
+
+},500 ,
+
+function()
+{
+$(this).css("display","block");
+
+
+}
+)
+}
+)
+
+</script>
+
+
+</body>
+</html>
